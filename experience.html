@@ -3,16 +3,16 @@
     <head>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-        <script>
+ 
+        <script> 
             // Load common header tags
             $(function(){ $("head").load("common_head.html") });
 
             $(function(){
                 $("#include_navbar").load("navbar.html", function() {
-                    $("#NAVBAR_home").addClass("active");
-                    console.log($("#NAVBAR_home"))
-                    console.log($("#NAVBAR_home").attr("attributes"))
+                    $("#NAVBAR_experience").addClass("active");
+                    console.log($("#NAVBAR_experience"))
+                    console.log($("#NAVBAR_experience").attr("attributes"))
                 });
             });
         </script> 
@@ -20,13 +20,10 @@
 
     <body>
         <div id="include_navbar"></div>
-        
+
         <div class="home_content">
-            Page of home
+            Page of xp
         </div>
         
-        
-          <!-- Load additional JS scripts here -->
-            <script type="text/javascript" src="new_script.js"></script>
     </body>
 </html>
